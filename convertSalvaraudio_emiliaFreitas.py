@@ -26,6 +26,6 @@ def pdf_para_audio(pdf_file, output_file):
         print(f"Áudio salvo em: {output_file}")
 
 # Exemplo de uso
-pdf_file = '/opt/lampp/htdocs/automacao/convertendo pdf em audio/A violência contra a mulher na literatura utópica de Emília Freitas.pdf'
+pdf_file = '/opt/lampp/htdocs/audio/A violência contra a mulher na literatura utópica de Emília Freitas.pdf'
 output_file = 'livro_em_audio.mp3'
 pdf_para_audio(pdf_file, output_file)

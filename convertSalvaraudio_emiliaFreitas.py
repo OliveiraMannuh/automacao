@@ -26,6 +26,6 @@ def pdf_para_audio(pdf_file, output_file):
         print(f"Áudio salvo em: {output_file}")
 
 # Exemplo de uso
-pdf_file = '/opt/lampp/htdocs/audio/Esquema de M. de Assis.pdf'
+pdf_file = '/opt/lampp/htdocs/audio/Barcelos.pdf'
 output_file = 'livro_em_audio.mp3'
 pdf_para_audio(pdf_file, output_file)
